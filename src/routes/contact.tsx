@@ -50,8 +50,8 @@ function Contact() {
           })}
           <div className="aspect-video w-full overflow-hidden rounded-2xl border border-border">
             <iframe
-              title="Map of Uyo"
-              src="https://www.google.com/maps?q=Uyo,+Akwa+Ibom,+Nigeria&output=embed"
+              title="Map of Shelter Afrique Estate"
+              src="https://www.google.com/maps?q=Shelter+Afrique+Estate,+Akwa+Ibom,+Nigeria&output=embed"
               className="h-full w-full"
               loading="lazy"
             />
