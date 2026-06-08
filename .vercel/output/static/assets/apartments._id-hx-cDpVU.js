@@ -1,1 +1,0 @@
-import{j as t,L as n}from"./index-BI4BHp-y.js";const o=()=>t.jsxs("div",{className:"container-page py-32 text-center",children:[t.jsx("h1",{className:"font-display text-4xl",children:"Apartment not found"}),t.jsx(n,{to:"/apartments",className:"mt-4 inline-block text-primary underline",children:"Back to apartments"})]});export{o as notFoundComponent};
