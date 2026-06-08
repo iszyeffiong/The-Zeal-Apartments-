@@ -29,7 +29,7 @@ function Index() {
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-black/30 via-black/40 to-black/70" />
         <div className="container-page pt-28 pb-40 md:pt-40 md:pb-56 text-white">
           <span className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs uppercase tracking-widest backdrop-blur-sm">
-            <MapPin className="h-3 w-3" /> Uyo · Akwa Ibom
+            <MapPin className="h-3 w-3" /> Shelter Afrique Estate, Akwa Ibom
           </span>
           <h1 className="mt-6 max-w-3xl font-display text-5xl md:text-7xl leading-[1.05]">
             A quiet kind of luxury, <em className="text-accent not-italic">in the heart of Uyo.</em>

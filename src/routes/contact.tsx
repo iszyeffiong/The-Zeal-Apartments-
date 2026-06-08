@@ -28,10 +28,10 @@ function Contact() {
       <div className="mt-14 grid gap-10 md:grid-cols-[1fr_1.2fr]">
         <div className="space-y-4">
           {[
-            { icon: Phone, label: "Phone", value: "+234 800 000 0000", href: "tel:+2348000000000" },
-            { icon: Mail, label: "Email", value: "info@rylmeapartments.com", href: "mailto:info@rylmeapartments.com" },
-            { icon: MessageCircle, label: "WhatsApp", value: "Chat with us", href: "https://wa.me/2348000000000" },
-            { icon: MapPin, label: "Location", value: "Uyo, Akwa Ibom State" },
+            { icon: Phone, label: "WhatsApp / Phone", value: "+234 902 830 2100", href: "https://wa.me/2349028302100" },
+            { icon: Mail, label: "Email", value: "hello@rylmestays.com", href: "mailto:hello@rylmestays.com" },
+            { icon: MessageCircle, label: "Live Chat", value: "Chat with us", href: "#" },
+            { icon: MapPin, label: "Location", value: "Shelter Afrique Estate, Akwa Ibom State" },
           ].map(({ icon: Icon, label, value, href }) => {
             const content = (
               <div className="flex gap-4 rounded-2xl border border-border bg-card p-5">
