@@ -10,8 +10,6 @@ const nav = [
   { to: "/amenities", label: "Amenities" },
   { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },
-  { to: "/dashboard", label: "My Bookings" },
-  { to: "/admin", label: "Admin" },
 ] as const;
 
 export function SiteHeader() {
