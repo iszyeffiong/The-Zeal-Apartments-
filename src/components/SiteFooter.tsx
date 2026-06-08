@@ -7,7 +7,7 @@ export function SiteFooter() {
       <div className="container-page py-16 grid gap-12 md:grid-cols-4">
         <div className="md:col-span-2">
           <div className="flex items-center">
-            <img src="/logo.png" alt="Rylme Logo" className="h-14 w-auto object-contain" />
+            <img src="/logo.jpeg" alt="Rylme Logo" className="h-14 w-auto object-contain" />
           </div>
           <p className="mt-4 max-w-md text-sm text-secondary-foreground/75 leading-relaxed">
             Boutique short-let and serviced apartments in the heart of Uyo, Akwa Ibom State.
