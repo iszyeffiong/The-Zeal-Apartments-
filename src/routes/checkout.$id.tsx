@@ -45,7 +45,7 @@ function Checkout() {
         </p>
         
         <div className="mt-8">
-          <Link to={`/book/${booking.apartmentId}`} className="text-sm underline text-muted-foreground">
+          <Link to="/book/$id" params={{ id: booking.apartmentId }} className="text-sm underline text-muted-foreground">
             Cancel and return
           </Link>
         </div>

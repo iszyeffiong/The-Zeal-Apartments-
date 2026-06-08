@@ -1,6 +1,5 @@
 import { createServerFn } from "@tanstack/react-start";
 import { getBookingsForApartment, saveBooking, getBookings, updateBookingStatus, type Booking } from "./db.server";
-import { v4 as uuidv4 } from "uuid"; // We might need to install uuid or just use crypto.randomUUID()
 import crypto from "node:crypto";
 
 export const getUnavailableDates = createServerFn({ method: "GET" })
