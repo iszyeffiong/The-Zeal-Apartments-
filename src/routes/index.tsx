@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
       { title: "Rylme Apartments - Luxury Short-Let Apartments in Uyo" },
       { name: "description", content: "Boutique serviced and short-let apartments in Uyo, Akwa Ibom. Book a studio, one-bedroom or two-bedroom suite online." },
       { property: "og:title", content: "Rylme Apartments - Luxury Short-Let Apartments in Uyo" },
-      { property: "og:description", content: "Boutique short-let apartments in Uyo, Akwa Ibom State." },
+      { property: "og:description", content: "Boutique short-let apartments in Shelter Afrique Estate, Uyo, Akwa Ibom State." },
     ],
   }),
   component: Index,

@@ -6,7 +6,7 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About - Rylme Apartments" },
-      { name: "description", content: "The story, mission and vision behind Rylme Apartments - boutique short-let apartments in Uyo, Akwa Ibom State." },
+      { name: "description", content: "The story, mission and vision behind Rylme Apartments - boutique short-let apartments in Shelter Afrique Estate, Uyo, Akwa Ibom State." },
       { property: "og:title", content: "About - Rylme Apartments" },
       { property: "og:description", content: "Our story and mission." },
     ],

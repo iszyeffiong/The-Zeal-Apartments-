@@ -11,7 +11,7 @@ export function SiteFooter() {
             <img src={logoUrl} alt="Rylme Logo" className="h-14 w-auto object-contain" />
           </div>
           <p className="mt-4 max-w-md text-sm text-secondary-foreground/75 leading-relaxed">
-            Boutique short-let and serviced apartments in Shelter Afrique Estate, Akwa Ibom State.
+            Boutique short-let and serviced apartments in Shelter Afrique Estate, Uyo, Akwa Ibom State.
             Designed for travelers who notice the details.
           </p>
           <div className="mt-6 flex gap-3">
@@ -34,7 +34,7 @@ export function SiteFooter() {
           <ul className="mt-4 space-y-3 text-sm text-secondary-foreground/80">
             <li className="flex items-start gap-2"><Phone className="h-4 w-4 mt-0.5 text-accent" /> +234 902 830 2100</li>
             <li className="flex items-start gap-2"><Mail className="h-4 w-4 mt-0.5 text-accent" /> hello@rylmestays.com</li>
-            <li className="flex items-start gap-2"><MapPin className="h-4 w-4 mt-0.5 text-accent" /> Shelter Afrique Estate, Akwa Ibom State</li>
+            <li className="flex items-start gap-2"><MapPin className="h-4 w-4 mt-0.5 text-accent" /> Shelter Afrique Estate, Uyo, Akwa Ibom State</li>
           </ul>
         </div>
       </div>

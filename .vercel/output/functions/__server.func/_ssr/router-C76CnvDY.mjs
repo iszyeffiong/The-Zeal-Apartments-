@@ -86,7 +86,7 @@ function SiteFooter() {
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container-page py-16 grid gap-12 md:grid-cols-4", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "md:col-span-2", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex items-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: "/logo.webp", alt: "Rylme Logo", className: "h-14 w-auto object-contain" }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 max-w-md text-sm text-secondary-foreground/75 leading-relaxed", children: "Boutique short-let and serviced apartments in the heart of Uyo, Akwa Ibom State. Designed for travelers who notice the details." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 max-w-md text-sm text-secondary-foreground/75 leading-relaxed", children: "Boutique short-let and serviced apartments in the heart of Shelter Afrique Estate, Uyo, Akwa Ibom State. Designed for travelers who notice the details." }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-6 flex gap-3", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#", className: "grid h-9 w-9 place-items-center rounded-full border border-secondary-foreground/20 hover:bg-secondary-foreground/10", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Instagram, { className: "h-4 w-4" }) }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#", className: "grid h-9 w-9 place-items-center rounded-full border border-secondary-foreground/20 hover:bg-secondary-foreground/10", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Facebook, { className: "h-4 w-4" }) })
@@ -107,7 +107,7 @@ function SiteFooter() {
         /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "mt-4 space-y-3 text-sm text-secondary-foreground/80", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-2", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "h-4 w-4 mt-0.5 text-accent" }),
-            " +234 800 000 0000"
+            " +2349028302100"
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-2", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(Mail, { className: "h-4 w-4 mt-0.5 text-accent" }),
@@ -115,7 +115,7 @@ function SiteFooter() {
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-2", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "h-4 w-4 mt-0.5 text-accent" }),
-            " Uyo, Akwa Ibom State, Nigeria"
+            " Shelter Afrique Estate, Uyo, Akwa Ibom State, Nigeria"
           ] })
         ] })
       ] })
@@ -579,7 +579,7 @@ const Route$5 = createFileRoute("/about")({
       title: "About - Rylme Apartments"
     }, {
       name: "description",
-      content: "The story, mission and vision behind Rylme Apartments - boutique short-let apartments in Uyo, Akwa Ibom State."
+      content: "The story, mission and vision behind Rylme Apartments - boutique short-let apartments in Shelter Afrique Estate, Uyo, Akwa Ibom State."
     }, {
       property: "og:title",
       content: "About - Rylme Apartments"
@@ -603,7 +603,7 @@ const Route$4 = createFileRoute("/")({
       content: "Rylme Apartments - Luxury Short-Let Apartments in Uyo"
     }, {
       property: "og:description",
-      content: "Boutique short-let apartments in Uyo, Akwa Ibom State."
+      content: "Boutique short-let apartments in Shelter Afrique Estate, Uyo, Akwa Ibom State."
     }]
   }),
   component: lazyRouteComponent($$splitComponentImporter$4, "component")

@@ -31,7 +31,7 @@ function Contact() {
             { icon: Phone, label: "WhatsApp / Phone", value: "+234 902 830 2100", href: "https://wa.me/2349028302100" },
             { icon: Mail, label: "Email", value: "hello@rylmestays.com", href: "mailto:hello@rylmestays.com" },
             { icon: MessageCircle, label: "Live Chat", value: "Chat with us", href: "#" },
-            { icon: MapPin, label: "Location", value: "Shelter Afrique Estate, Akwa Ibom State" },
+            { icon: MapPin, label: "Location", value: "Shelter Afrique Estate, Uyo, Akwa Ibom State" },
           ].map(({ icon: Icon, label, value, href }) => {
             const content = (
               <div className="flex gap-4 rounded-2xl border border-border bg-card p-5">

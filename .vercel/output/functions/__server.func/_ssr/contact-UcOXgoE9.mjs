@@ -19,7 +19,7 @@ function Contact() {
         [{
           icon: Phone,
           label: "Phone",
-          value: "+234 800 000 0000",
+          value: "+2349028302100",
           href: "tel:+2348000000000"
         }, {
           icon: Mail,
@@ -34,7 +34,7 @@ function Contact() {
         }, {
           icon: MapPin,
           label: "Location",
-          value: "Uyo, Akwa Ibom State"
+          value: "Shelter Afrique Estate, Uyo, Akwa Ibom State"
         }].map(({
           icon: Icon,
           label,
