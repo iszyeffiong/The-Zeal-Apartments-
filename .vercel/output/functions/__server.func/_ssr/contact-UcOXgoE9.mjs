@@ -30,7 +30,7 @@ function Contact() {
           icon: MessageCircle,
           label: "WhatsApp",
           value: "Chat with us",
-          href: "https://wa.me/2348000000000"
+          href: "https://wa.me/2349028302100"
         }, {
           icon: MapPin,
           label: "Location",

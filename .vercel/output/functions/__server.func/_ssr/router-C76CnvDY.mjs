@@ -134,7 +134,7 @@ function WhatsAppButton() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx(
     "a",
     {
-      href: "https://wa.me/2348000000000?text=Hello%20Rylme%20Apartments%2C%20I%27d%20like%20to%20make%20a%20booking.",
+      href: "https://wa.me/2349028302100?text=Hello%20Rylme%20Apartments%2C%20I%27d%20like%20to%20make%20a%20booking.",
       target: "_blank",
       rel: "noreferrer",
       "aria-label": "Chat on WhatsApp",
