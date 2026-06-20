@@ -1,16 +1,13 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useNavigate } from "@tanstack/react-router";
-import { getBookingsByEmail } from "@/lib/db.server";
+import { getBookingsByEmail } from "@/lib/db";
 import { formatNGN } from "@/lib/apartments";
 import { format } from "date-fns";
-import { createServerFn } from "@tanstack/react-start";
 import { useState } from "react";
 
-export const fetchMyBookings = createServerFn({ method: "GET" })
-  .validator((d: { email: string }) => d)
-  .handler(async ({ data }) => {
-    return getBookingsByEmail(data.email);
-  });
+export const fetchMyBookings = async ({ data }: { data: { email: string } }) => {
+  return getBookingsByEmail(data.email);
+};
 
 export const Route = createFileRoute("/dashboard")({
   component: Dashboard,

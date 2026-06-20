@@ -1,21 +1,17 @@
 import { createFileRoute } from '@tanstack/react-router'
 
-import { getBookings, updateBookingStatus } from "@/lib/db.server";
+import { getBookings, updateBookingStatus, type BookingStatus } from "@/lib/db";
 import { formatNGN } from "@/lib/apartments";
 import { format } from "date-fns";
-import { createServerFn } from "@tanstack/react-start";
 import { useState, useEffect } from "react";
 
-export const fetchAllBookings = createServerFn({ method: "GET" })
-  .handler(async () => {
-    return getBookings();
-  });
+export const fetchAllBookings = async () => {
+  return getBookings();
+};
 
-export const updateStatus = createServerFn({ method: "POST" })
-  .validator((d: { id: string, status: any }) => d)
-  .handler(async ({ data }) => {
-    return updateBookingStatus(data.id, data.status);
-  });
+export const updateStatus = async ({ data }: { data: { id: string, status: any } }) => {
+  return updateBookingStatus(data.id, data.status as BookingStatus);
+};
 
 export const Route = createFileRoute("/admin")({
   component: AdminDashboard,

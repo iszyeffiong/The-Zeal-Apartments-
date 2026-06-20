@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { Link, useNavigate } from "@tanstack/react-router";
-import { getBookingById, markBookingPaid } from "@/lib/bookings.server";
+import { getBookingById, markBookingPaid } from "@/lib/bookings";
 import { formatNGN } from "@/lib/apartments";
 
 export const Route = createFileRoute("/checkout/$id")({

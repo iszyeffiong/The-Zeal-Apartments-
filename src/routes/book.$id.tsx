@@ -2,7 +2,7 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useState } from "react";
 import { getApartment, formatNGN, type Apartment } from "@/lib/apartments";
 import { Check, ArrowRight, ArrowLeft, PartyPopper } from "lucide-react";
-import { getUnavailableDates, createPendingBooking } from "@/lib/bookings.server";
+import { getUnavailableDates, createPendingBooking } from "@/lib/bookings";
 import { Calendar } from "@/components/ui/calendar";
 import { format, addDays, startOfDay } from "date-fns";
 import type { DateRange } from "react-day-picker";
