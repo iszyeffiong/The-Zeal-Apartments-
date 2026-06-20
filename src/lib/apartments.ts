@@ -35,7 +35,7 @@ export const apartments: Apartment[] = [
     cover: studio,
     gallery: [studio, executive, luxury, kitchen, exterior, hero],
     description: "Compact and efficient, featuring everything you need for a comfortable short stay in Uyo.",
-    amenities: ["Double Bed", "Smart TV", "Air Conditioning", "Free WiFi"],
+    amenities: ["Double Bed", "Smart TV", "Air Conditioning", "Free WiFi", "2 Bedrooms", "2 Bathrooms", "Spacious Living Room & Kitchen", "Snooker Table", "Poolside / Lounge"],
   },
   {
     id: "deluxe-studio",
@@ -50,7 +50,7 @@ export const apartments: Apartment[] = [
     cover: studio,
     gallery: [studio, executive, luxury, kitchen, exterior, hero],
     description: "Our Deluxe Studio pairs warm terracotta walls with brass fixtures and crisp white linens. A queen bed, kitchenette and smart TV make it ideal for short business trips and weekend getaways.",
-    amenities: ["Queen Bed", "Smart TV with Netflix", "Air Conditioning", "Kitchenette", "Free High-Speed WiFi", "24/7 Power", "Daily Housekeeping"],
+    amenities: ["Queen Bed", "Smart TV with Netflix", "Air Conditioning", "Kitchenette", "Free High-Speed WiFi", "24/7 Power", "Daily Housekeeping", "2 Bedrooms", "2 Bathrooms", "Spacious Living Room & Kitchen", "Snooker Table", "Poolside / Lounge"],
   },
   {
     id: "premium-studio",
@@ -65,7 +65,7 @@ export const apartments: Apartment[] = [
     cover: studio,
     gallery: [studio, executive, luxury, kitchen, exterior, hero],
     description: "Enjoy a larger floor plan, premium bedding, and a dedicated workspace in our top-tier studio apartment.",
-    amenities: ["King Bed", "Smart TV with Netflix", "Workspace", "Kitchenette", "Free WiFi", "24/7 Power"],
+    amenities: ["King Bed", "Smart TV with Netflix", "Workspace", "Kitchenette", "Free WiFi", "24/7 Power", "2 Bedrooms", "2 Bathrooms", "Spacious Living Room & Kitchen", "Snooker Table", "Poolside / Lounge"],
   },
   {
     id: "classic-one-bedroom",
@@ -80,7 +80,7 @@ export const apartments: Apartment[] = [
     cover: executive,
     gallery: [studio, executive, luxury, kitchen, exterior, hero],
     description: "A comfortable one-bedroom apartment with a separate living area and kitchen, perfect for longer stays.",
-    amenities: ["Queen Bed", "Living Room", "Full Kitchen", "Air Conditioning", "Free WiFi"],
+    amenities: ["Queen Bed", "Living Room", "Full Kitchen", "Air Conditioning", "Free WiFi", "2 Bedrooms", "2 Bathrooms", "Spacious Living Room & Kitchen", "Snooker Table", "Poolside / Lounge"],
   },
   {
     id: "executive-one-bedroom",
@@ -95,7 +95,7 @@ export const apartments: Apartment[] = [
     cover: executive,
     gallery: [studio, executive, luxury, kitchen, exterior, hero],
     description: "An open-plan living room with a forest-green accent wall flows into a private bedroom with king bed. Cook in the full kitchen or unwind on the balcony after a long day in Uyo.",
-    amenities: ["King Bed", "Private Living Room", "Smart TV with Netflix", "Full Kitchen", "Air Conditioning", "Workspace", "Free WiFi", "Daily Housekeeping", "Secure Parking"],
+    amenities: ["King Bed", "Private Living Room", "Smart TV with Netflix", "Full Kitchen", "Air Conditioning", "Workspace", "Free WiFi", "Daily Housekeeping", "Secure Parking", "2 Bedrooms", "2 Bathrooms", "Spacious Living Room & Kitchen", "Snooker Table", "Poolside / Lounge"],
   },
   {
     id: "signature-one-bedroom",
@@ -110,7 +110,7 @@ export const apartments: Apartment[] = [
     cover: executive,
     gallery: [studio, executive, luxury, kitchen, exterior, hero],
     description: "Expansive layout featuring bespoke furniture, a premium kitchen, and a private balcony with city views.",
-    amenities: ["King Bed", "Premium Kitchen", "Balcony", "2 Smart TVs", "Free WiFi", "24/7 Security"],
+    amenities: ["King Bed", "Premium Kitchen", "Balcony", "2 Smart TVs", "Free WiFi", "24/7 Security", "2 Bedrooms", "2 Bathrooms", "Spacious Living Room & Kitchen", "Snooker Table", "Poolside / Lounge"],
   },
   {
     id: "family-two-bedroom",
@@ -125,7 +125,7 @@ export const apartments: Apartment[] = [
     cover: luxury,
     gallery: [studio, executive, luxury, kitchen, exterior, hero],
     description: "Two comfortable bedrooms and a spacious living area make this ideal for family vacations.",
-    amenities: ["Two Queen Beds", "Spacious Living Room", "Kitchen", "Free WiFi", "24/7 Power"],
+    amenities: ["Two Queen Beds", "Spacious Living Room", "Kitchen", "Free WiFi", "24/7 Power", "2 Bedrooms", "2 Bathrooms", "Spacious Living Room & Kitchen", "Snooker Table", "Poolside / Lounge"],
   },
   {
     id: "luxury-two-bedroom",
@@ -140,7 +140,7 @@ export const apartments: Apartment[] = [
     cover: luxury,
     gallery: [studio, executive, luxury, kitchen, exterior, hero],
     description: "Two bedrooms, a dining area for six and a sun-drenched balcony. The Luxury Two Bedroom is our flagship apartment - designed for families, event guests and longer stays.",
-    amenities: ["Two Bedrooms", "Dining for Six", "Two Smart TVs", "Fully Equipped Kitchen", "Private Balcony", "Washer & Dryer", "Air Conditioning", "Free WiFi", "24/7 Security", "Generator Backup"],
+    amenities: ["Two Bedrooms", "Dining for Six", "Two Smart TVs", "Fully Equipped Kitchen", "Private Balcony", "Washer & Dryer", "Air Conditioning", "Free WiFi", "24/7 Security", "Generator Backup", "2 Bedrooms", "2 Bathrooms", "Spacious Living Room & Kitchen", "Snooker Table", "Poolside / Lounge"],
   },
   {
     id: "garden-suite",
@@ -155,7 +155,7 @@ export const apartments: Apartment[] = [
     cover: luxury,
     gallery: [studio, executive, luxury, kitchen, exterior, hero],
     description: "A beautiful two-bedroom suite with direct access to a private landscaped garden.",
-    amenities: ["Private Garden", "Two Bedrooms", "Full Kitchen", "Premium Setup", "Free WiFi"],
+    amenities: ["Private Garden", "Two Bedrooms", "Full Kitchen", "Premium Setup", "Free WiFi", "2 Bedrooms", "2 Bathrooms", "Spacious Living Room & Kitchen", "Snooker Table", "Poolside / Lounge"],
   },
   {
     id: "business-suite",
@@ -170,7 +170,7 @@ export const apartments: Apartment[] = [
     cover: executive,
     gallery: [studio, executive, luxury, kitchen, exterior, hero],
     description: "Features a dedicated office space alongside a luxurious bedroom and living area.",
-    amenities: ["Home Office", "King Bed", "Fast WiFi", "Printer/Scanner", "Kitchen"],
+    amenities: ["Home Office", "King Bed", "Fast WiFi", "Printer/Scanner", "Kitchen", "2 Bedrooms", "2 Bathrooms", "Spacious Living Room & Kitchen", "Snooker Table", "Poolside / Lounge"],
   },
   {
     id: "penthouse-suite",
@@ -184,8 +184,8 @@ export const apartments: Apartment[] = [
     size: "150 m²",
     cover: hero,
     gallery: [studio, executive, luxury, kitchen, exterior, hero],
-    description: "Our exclusive three-bedroom penthouse offers the ultimate Rylme experience with wrap-around balconies and premium finishes.",
-    amenities: ["Three Bedrooms", "Panoramic Views", "Chef's Kitchen", "Private Terrace", "Premium WiFi", "Dedicated Support"],
+    description: "Our exclusive three-bedroom penthouse offers the ultimate Zeal experience with wrap-around balconies and premium finishes.",
+    amenities: ["Three Bedrooms", "Panoramic Views", "Chef's Kitchen", "Private Terrace", "Premium WiFi", "Dedicated Support", "2 Bedrooms", "2 Bathrooms", "Spacious Living Room & Kitchen", "Snooker Table", "Poolside / Lounge"],
   },
   {
     id: "presidential-suite",
@@ -200,7 +200,7 @@ export const apartments: Apartment[] = [
     cover: hero,
     gallery: [studio, executive, luxury, kitchen, exterior, hero],
     description: "Four opulent bedrooms, a massive entertaining space, and unparalleled service.",
-    amenities: ["Four Bedrooms", "Luxury Finishes", "Butler Service", "Secure Access", "Private Dining Room"],
+    amenities: ["Four Bedrooms", "Luxury Finishes", "Butler Service", "Secure Access", "Private Dining Room", "2 Bedrooms", "2 Bathrooms", "Spacious Living Room & Kitchen", "Snooker Table", "Poolside / Lounge"],
   }
 ];
 
@@ -218,10 +218,10 @@ export const galleryImages = [
   { src: executive, category: "Living Areas", caption: "Executive lounge" },
   { src: luxury, category: "Living Areas", caption: "Two-bedroom living room" },
   { src: kitchen, category: "Kitchens", caption: "Marble & brass kitchen" },
-  { src: exterior, category: "Exterior", caption: "The Rylme building at dusk" },
+  { src: exterior, category: "Exterior", caption: "The Zeal building at dusk" },
   { src: "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=800", category: "Game Room", caption: "Indoor Game Room & Lounge" },
   { src: "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?q=80&w=800", category: "Swimming Pool", caption: "Outdoor Swimming Pool" },
-  { src: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=800", category: "Bar", caption: "Rylme Cocktail Bar" },
-  { src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800", category: "Restaurant", caption: "Rylme Dining & Restaurant" },
+  { src: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=800", category: "Bar", caption: "The Zeal Cocktail Bar" },
+  { src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800", category: "Restaurant", caption: "The Zeal Dining & Restaurant" },
   ...apartments.map(apt => ({ src: apt.cover, category: "Rooms" as const, caption: apt.name })),
 ];

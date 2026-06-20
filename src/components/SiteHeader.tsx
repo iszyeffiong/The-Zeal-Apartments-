@@ -18,7 +18,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur-md">
       <div className="container-page flex min-h-[4.5rem] md:min-h-20 py-2 items-center justify-between">
         <Link to="/" className="flex items-center">
-          <img src={logoUrl} alt="Rylme Logo" className="h-12 md:h-16 w-auto object-contain" />
+          <img src={logoUrl} alt="The Zeal Logo" className="h-12 md:h-16 w-auto object-contain" />
         </Link>
         <nav className="hidden md:flex items-center gap-7 text-sm">
           {nav.map((n) => (

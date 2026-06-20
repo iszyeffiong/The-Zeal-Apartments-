@@ -21,10 +21,10 @@ const amenities = [
 export const Route = createFileRoute("/amenities")({
   head: () => ({
     meta: [
-      { title: "Amenities - Rylme Apartments" },
-      { name: "description", content: "Everything included in your Rylme stay - from 24/7 power and security to daily housekeeping and airport pickup." },
-      { property: "og:title", content: "Amenities - Rylme Apartments" },
-      { property: "og:description", content: "What's included in your stay at Rylme Apartments Uyo." },
+      { title: "Amenities - The Zeal Apartments" },
+      { name: "description", content: "Everything included in your The Zeal stay - from 24/7 power and security to daily housekeeping and airport pickup." },
+      { property: "og:title", content: "Amenities - The Zeal Apartments" },
+      { property: "og:description", content: "What's included in your stay at The Zeal Apartments Uyo." },
     ],
   }),
   component: Amenities,

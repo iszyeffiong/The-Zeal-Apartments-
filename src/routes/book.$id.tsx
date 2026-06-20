@@ -16,7 +16,7 @@ export const Route = createFileRoute("/book/$id")({
     return { apt, unavailable };
   },
   head: ({ loaderData }) => ({
-    meta: [{ title: loaderData ? `Book ${loaderData.apt.name} - Rylme Apartments` : "Book - Rylme" }],
+    meta: [{ title: loaderData ? `Book ${loaderData.apt.name} - The Zeal Apartments` : "Book - The Zeal" }],
   }),
   component: Book,
 });

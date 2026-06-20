@@ -29,9 +29,9 @@ export const Route = createFileRoute("/apartments/$id")({
   head: ({ loaderData }) => ({
     meta: loaderData
       ? [
-          { title: `${loaderData.apt.name} - Rylme Apartments Uyo` },
+          { title: `${loaderData.apt.name} - The Zeal Apartments Uyo` },
           { name: "description", content: loaderData.apt.tagline },
-          { property: "og:title", content: `${loaderData.apt.name} - Rylme Apartments` },
+          { property: "og:title", content: `${loaderData.apt.name} - The Zeal Apartments` },
           { property: "og:description", content: loaderData.apt.tagline },
           { property: "og:image", content: loaderData.apt.cover },
         ]

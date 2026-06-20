@@ -6,10 +6,10 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact - Rylme Apartments" },
-      { name: "description", content: "Get in touch with Rylme Apartments in Uyo. Call, email, WhatsApp or send us a message." },
-      { property: "og:title", content: "Contact - Rylme Apartments" },
-      { property: "og:description", content: "Get in touch with Rylme Apartments." },
+      { title: "Contact - The Zeal Apartments" },
+      { name: "description", content: "Get in touch with The Zeal Apartments in Uyo. Call, email, WhatsApp or send us a message." },
+      { property: "og:title", content: "Contact - The Zeal Apartments" },
+      { property: "og:description", content: "Get in touch with The Zeal Apartments." },
     ],
   }),
   component: Contact,
@@ -28,8 +28,8 @@ function Contact() {
       <div className="mt-14 grid gap-10 md:grid-cols-[1fr_1.2fr]">
         <div className="space-y-4">
           {[
-            { icon: Phone, label: "WhatsApp / Phone", value: "+234 902 830 2100", href: "https://wa.me/2349028302100" },
-            { icon: Mail, label: "Email", value: "hello@rylmestays.com", href: "mailto:hello@rylmestays.com" },
+            { icon: Phone, label: "WhatsApp / Phone", value: "+234 816 799 6203", href: "https://wa.me/2348167996203" },
+            { icon: Mail, label: "Email", value: "thezealluxuryapartments@gmail.com", href: "mailto:thezealluxuryapartments@gmail.com" },
             { icon: MessageCircle, label: "Live Chat", value: "Chat with us", href: "#" },
             { icon: MapPin, label: "Location", value: "Shelter Afrique Estate, Uyo, Akwa Ibom State" },
           ].map(({ icon: Icon, label, value, href }) => {

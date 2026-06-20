@@ -6,10 +6,10 @@ import { SearchWidget } from "@/components/SearchWidget";
 export const Route = createFileRoute("/apartments/")({
   head: () => ({
     meta: [
-      { title: "Apartments - Rylme Apartments Uyo" },
-      { name: "description", content: "Browse Rylme's collection of studio, one-bedroom and two-bedroom serviced apartments in Uyo." },
-      { property: "og:title", content: "Apartments - Rylme Apartments Uyo" },
-      { property: "og:description", content: "Browse Rylme's collection of serviced apartments in Uyo." },
+      { title: "Apartments - The Zeal Apartments Uyo" },
+      { name: "description", content: "Browse The Zeal's collection of studio, one-bedroom and two-bedroom serviced apartments in Uyo." },
+      { property: "og:title", content: "Apartments - The Zeal Apartments Uyo" },
+      { property: "og:description", content: "Browse The Zeal's collection of serviced apartments in Uyo." },
     ],
   }),
   component: Apartments,

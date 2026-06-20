@@ -82,10 +82,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Rylme Apartments - Luxury Short-Let Apartments in Uyo" },
+      { title: "The Zeal Apartments - Luxury Short-Let Apartments in Uyo" },
       { name: "description", content: "Boutique serviced and short-let apartments in Uyo, Akwa Ibom. Book online with 24/7 power, fast WiFi and daily housekeeping." },
-      { name: "author", content: "Rylme Apartments" },
-      { property: "og:title", content: "Rylme Apartments - Luxury Short-Let Apartments in Uyo" },
+      { name: "author", content: "The Zeal Apartments" },
+      { property: "og:title", content: "The Zeal Apartments - Luxury Short-Let Apartments in Uyo" },
       { property: "og:description", content: "Boutique serviced and short-let apartments in Uyo, Akwa Ibom." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

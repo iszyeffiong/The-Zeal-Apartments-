@@ -8,7 +8,7 @@ export async function sendConfirmationEmail(booking: any) {
   console.log(`Subject: Your booking at ${booking.apartmentName} is confirmed!`);
   console.log("---------------------------------------------");
   console.log(`Hello ${booking.name},`);
-  console.log(`\nThank you for choosing Rylme Apartments.`);
+  console.log(`\nThank you for choosing The Zeal Apartments.`);
   console.log(`Your payment of NGN ${booking.totalAmount.toLocaleString()} was successful.`);
   console.log(`\nBooking Details:`);
   console.log(`- Apartment: ${booking.apartmentName}`);
